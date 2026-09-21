@@ -50,4 +50,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: public
           publish_branch: gh-pages
-          cname: badge.edgeaifoundation.org
+          # When DNS for badge.edgeaifoundation.org is live, set baseURL to
+          # https://badge.edgeaifoundation.org/ and uncomment:
+          # cname: badge.edgeaifoundation.org
