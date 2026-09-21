@@ -42,7 +42,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: hugo --gc --minify --baseURL "https://badge.edgeaifoundation.org/"
+        run: hugo --gc --minify --baseURL "https://edge-ai-foundation.github.io/eaif-badge-docs/"
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
